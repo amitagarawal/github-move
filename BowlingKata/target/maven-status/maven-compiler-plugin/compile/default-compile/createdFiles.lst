@@ -1,0 +1,5 @@
+com\agile\BowlingKata\App.class
+com\agile\BowlingKata\BowlingRules.class
+com\agile\BowlingKata\Frame.class
+com\agile\BowlingKata\MaximumFramesException.class
+com\agile\BowlingKata\BowlingScore.class
