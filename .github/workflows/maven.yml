@@ -32,7 +32,7 @@ jobs:
       - name: Sonar cloud scan
         uses: Sonarsource/sonarcloud-github-action@v1.6
         with:
-          projectBaseDir: SimpleInterestCalc2
+          projectBaseDir: BowlingKata
           args: >
             -Dsonar.organization=org-bowling-kata
             -Dsonar.projectKey=github-move
