@@ -36,6 +36,7 @@ jobs:
           args: >
             -Dsonar.organization=org-bowling-kata
             -Dsonar.projectKey=github-move
+            -Dsonar.java.binaries=target/classes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_BOWLING_KATA_TOKEN }}
